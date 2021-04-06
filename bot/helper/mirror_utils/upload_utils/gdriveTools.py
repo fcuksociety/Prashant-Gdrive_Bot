@@ -351,7 +351,7 @@ class GoogleDriveHelper:
                 else:
                     buttons.buildbutton("🌎 𝐃𝐫𝐢𝐯𝐞 𝐋𝐢𝐧𝐤", durl)
                 try:
-                    msg += f'\n\n<b>📀 Total Size :</b> {get_readable_file_size(int(meta.get("size")))}\n\n▫️#Uploaded to Drive ✓ \n\n🔸🔶 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 : <b>@ImPrashantt</b>'
+                    msg += f'\n\n<b>📀 Total Size :</b> {get_readable_file_size(int(meta.get("size")))}\n\n▫️#Uploaded to Drive ✓ \n\n  𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 : <b>@fcuksociety69</b>'
                 except TypeError:
                     pass
                 if INDEX_URL is not None:
@@ -481,9 +481,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
-                                 title = '🔸🔶PRASHANT🔶🔸',
-                                 author_name='👲 𝗨𝗽𝗹𝗼𝗮𝗱 𝗕𝘆 @hentaimirror_bot',
-                                 author_url='https://t.me/ImPrashantt',
+                                 title = 'CopyNinja',
+                                 author_name='👲 𝗨𝗽𝗹𝗼𝗮𝗱 𝗕𝘆 @ItachiUchiha_69Bot',
+                                 author_url='https://t.me/fcuksociety69',
                                  html_content=content)
         return
  
@@ -556,9 +556,9 @@ class GoogleDriveHelper:
  
             for content in self.telegraph_content :
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
-                                                        title = '🔸🔶PRASHANT🔶🔸',
-                                                        author_name='👲 𝗨𝗽𝗹𝗼𝗮𝗱 𝗕𝘆 @hentaimirror_bot',
-                                                        author_url='https://t.me/ImPrashantt',
+                                                        title = 'Copy Ninja',
+                                                        author_name='👲 𝗨𝗽𝗹𝗼𝗮𝗱 𝗕𝘆 @ItachiUchiha_69Bot',
+                                                        author_url='https://t.me/fcuksociety69',
                                                         html_content=content
                                                         )['path'])
  
